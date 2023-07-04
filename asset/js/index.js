@@ -1,0 +1,2 @@
+
+JsBarcode("#barcode", "hello")

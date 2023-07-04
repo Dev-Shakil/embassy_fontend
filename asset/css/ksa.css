@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: arbFont;
+    src: url('path/to/font-file.woff');
+  }
+  .arb{
+    font-family:arb Arial, sans-serif;
+}
+@media print {
+    .noPrint{
+      display:none;
+    }
+  }

@@ -1,0 +1,32 @@
+.profile-bg{
+    background-image: url(../image/profile-bg.jpg);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+   /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #82d0d6;
+    color: #fff;
+    border:1px solid white;
+    text-align: center;
+    padding: 3px 3px;
+    font-size:14px;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    right:10px;
+    top:40px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

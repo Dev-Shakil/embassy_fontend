@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../asset/css/embassylist.css">
+    <title>Create Embassy List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        important:true,
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+           
+          },
+        },
+      };
+    </script>
+</head>
+<body>
+    <div class="">
+        <nav class="w-full h-30 px-7 py-3 bg-[#225672] text-white flex items-center justify-between">
+          <div>
+            <a href="" class="border-r-2 border-black text-lg font-semibold p-3">File Solution</a>
+            <a class="text-lg" href=""><i class="fa fa-list-alt text-xl pl-6 mr-2" aria-hidden="true"></i>Create Embassy List</a>
+          </div>
+          <div>
+            <a href="" class=" text-xl font-semibold p-3 tooltip">
+              <span class="tooltiptext">See Notifications Form System</span>
+              <i class="fa-regular fa-bell text-xl"></i>
+            </a>
+            <a href="" class=" text-xl font-semibold p-3 tooltip">
+              <span class="tooltiptext">Your Company Profile</span>
+              <i class="fa-regular fa-user font-semibold"></i></a>
+            
+          </div>
+        </nav>
+        <div class="md:mx-10 lg:mx-[180px] my-4 ">
+          <div class="flex text-[#082F2C] bg-[#ADCCC8] p-3 text-xl rounded-t-xl font-semibold justify-between items-center"><h2 class="font-bold">Create Embassy List</h2>
+          </div>        
+            
+          <div class="bg-[#DBF4F1] h-[80vh] rounded-b-xl p-2">
+            <input type="text" placeholder="Search Passenger" class="p-1 text-lg font-medium rounded-md mb-2 border-2 border-indigo-400"/>
+            <table class="w-full bg-white ">
+              <tr class="[&>th]:border [&>th]:border-black [&>th]:py-1 text-base font-semibold text-center [&>th]:font-bold">
+                <th>SL No</th>
+                <th>Passport No</th>
+                <th>Name</th>
+                <th>Visa No</th>
+                <th>Profession</th>
+              </tr>
+              <tr class="[&>td]:border [&>td]:border-black [&>td]:p-0 text-xl text-center relative group">
+                <td>01</td>
+                <td>A09405034</td>
+                <td>Mohammed Shakil</td>
+                <td>130393838</td>
+                <td>Engineer</td>
+              </tr>
+             
+            </table>
+          </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<div
+class="profile-bg bg-cover h-[91vh] flex justify-center opacity-80 items-center"
+>
+<div
+  class="bg-[#DBF4F1] drop-shadow-4xl border-black border rounded-lg lg:h-[80vh] h-[80vh] lg:mx-[90px] scrollbar overflow-y-scroll"
+>
+  <h2
+    class="text-center bg-[#27706B] rounded-t-lg py-3 text-white text-2xl"
+  >
+    Profile
+  </h2>
+  <div class="flex flex-wrap gap-x-8 gap-y-3 p-4">
+    <div class="w-[48%] bg-white rounded-lg">
+      <div
+        class="border-2 border-indigo-800 pb-3 rounded-lg flex items-center flex-col gap-2"
+      >
+        <h2
+          class="text-xl font-medium title-font mb-2 bg-[#27706B] w-full text-center text-white py-2 rounded-t-md"
+        >
+          Recruiting Licence Name
+        </h2>
+        <h2
+          class="text-lg p-2 uppercase text-indigo-900 font-semibold title-font"
+        >
+          Sallu Air Service
+        </h2>
+      </div>
+    </div>
+    <div class="w-[48%] bg-white rounded-lg">
+      <div
+        class="border-2 border-indigo-800 pb-3 rounded-lg flex items-center flex-col gap-2"
+      >
+        <h2
+          class="text-xl font-medium title-font mb-2 bg-[#27706B] w-full text-center text-white py-2 rounded-t-md"
+        >
+          Recruiting Licence Number (RL)
+        </h2>
+        <h2
+          class="text-lg p-2 uppercase text-indigo-900 font-semibold title-font"
+        >
+          6251
+        </h2>
+      </div>
+    </div>
+    <div class="w-[48%] bg-white rounded-lg">
+      <div
+        class="border-2 border-indigo-800 pb-3 rounded-lg flex items-center flex-col gap-2"
+      >
+        <h2
+          class="text-xl font-medium title-font mb-2 bg-[#27706B] w-full text-center text-white py-2 rounded-t-md"
+        >
+          Email
+        </h2>
+        <h2
+          class="text-lg p-2 uppercase text-indigo-900 font-semibold title-font"
+        >
+          sallu@gmail.com
+        </h2>
+      </div>
+    </div>
+    <div class="w-[48%] bg-white rounded-lg">
+      <div
+        class="border-2 border-indigo-800 pb-3 rounded-lg flex items-center flex-col gap-2"
+      >
+        <h2
+          class="text-xl font-medium title-font mb-2 bg-[#27706B] w-full text-center text-white py-2 rounded-t-md"
+        >
+          Phone
+        </h2>
+        <h2
+          class="text-lg p-2 uppercase text-indigo-900 font-semibold title-font"
+        >
+          +8801750578453
+        </h2>
+      </div>
+    </div>
+    <div class="w-[48%] bg-white rounded-lg">
+      <div
+        class="border-2 border-indigo-800 pb-3 rounded-lg flex items-center flex-col gap-2"
+      >
+        <h2
+          class="text-xl font-medium title-font mb-2 bg-[#27706B] w-full text-center text-white py-2 rounded-t-md"
+        >
+          Office Address
+        </h2>
+        <h2
+          class="text-lg p-2 uppercase text-center text-indigo-900 font-semibold title-font"
+        >
+          291, Jomidar Palace, Fakirapool Motijhil, Dhaka
+        </h2>
+      </div>
+    </div>
+  </div>
+  <h2
+    class="text-center bg-[#27706B] rounded-t-lg py-3 text-white text-2xl"
+  >
+    Embassy Representative Information
+  </h2>
+
+  <div class="m-3 rounded-lg">
+    <div class="rounded-lg flex flex-col gap-1">
+      <h2
+        class="text-xl gap-10 uppercase flex justify-around text-indigo-900 font-semibold title-font p-5"
+      >
+        <span> Name: Jane Alam</span>
+
+        <span> Phone: +8801750578453</span>
+      </h2>
+      <div class="text-center">
+      
+        <button
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+          class="bg-[#27706B] p-1 w-1/5 py-3 rounded-xl text-white font-semibold cursor-pointer"
+        >
+          Edit Agency Man
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModalCenter"
+          style="z-index: 1050"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLongTitle"
+          aria-hidden="true"
+          data-backdrop="static"
+        >
+          <div
+            class="modal-dialog modal-lg modal-dialog-centered"
+            role="document"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Enter Embassy Man Information
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="container mt-5">
+                  <form class="bg-[#DBF4F1] pb-4 rounded-b-xl">
+                    <div class="px-10 pt-5 gap-5">
+                      <label for="embassy-man-name" class="font-bold"
+                        >Embassy Man Name</label
+                      >
+                      <input
+                        type="text"
+                        id="embassy-man-name"
+                        class="form-control"
+                        required
+                        placeholder="Embassy Man Name"
+                      />
+
+                      <label for="phone" class="font-bold">Phone</label>
+                      <input
+                        type="text"
+                        id="phone"
+                        class="form-control"
+                        required
+                        placeholder="01739403402"
+                      />
+                    </div>
+
+                    <div class="text-center pt-3">
+                      <button
+                        type="submit"
+                        class="btn btn-primary bg-[#289788] hover:bg-[#074f56]"
+                      >
+                        Update
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
